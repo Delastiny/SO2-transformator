@@ -214,6 +214,7 @@ img {
 .rute {
     height: 444px;
     margin-left: 120px;
+    border-radius: 10px;
 }
 
 /* Text sections */
