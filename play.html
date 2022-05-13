@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/play.css">
+    <link rel="stylesheet" href="CSS/interactive.css">
+    <!-- Lato  light 300 and regular 400-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>Forsøgsvejledning</title>
+</head>
+<body>
+    <!-- navigation -->
+ <div class="nav">
+     <a href="index.html">Forside</a>
+     <a href="trans.html" >Hvad er en transformator?</a>
+     <a href="play.html" class="active">Fri leg side</a>
+     <a href="refl.html">Kommunikations Reflektioner</a>
+     <a href="logbog.html">Logbog & Selvrefleksion</a>
+     <a href="kilder.html">Litteraturliste & Bilag</a>
+ </div>
+ <!-- The information sections-->
+  <div class="main-box">
+      <h1>Forsøgsvejledning</h1>
+      <h3>Formål</h3>
+        <p>
+            Formålet ved dette forsøg er at skulle afprøve formlen for vindinger og spændinger, og se tilnærmelsen af formlen i praksis. I denne forsøgsvejledning er der reference billeder så du ved præcist hvordan forsøget skal sættes op.  
+        </p>
+        <h3>Materialer</h3>
+        <p>     ⋅ 1 Gult multimeter
+            <br>⋅ 3 Forskellige spoler
+            <br>⋅ 4 Ledninger 
+            <br>⋅ 1 Spændingsforsygning 
+            <br>⋅ 1 Jernkerne 
+            <br>⋅ 1 Strømkabel
+        </p>
+        <h3>Fremgangsmåde</h3>
+        <p>
+            Find alle de nødvendige materialer og læg dem på et bord eller flade, tæt på en stikkontakt. 
+            Når ledningerne skal findes, så ville det være en god ide at tage 2 par af forskellige farver, fx 2 røde og 2 gule, så du kan kende forskel på hvilke ledninger der bliver brugt til hvad. - Hvis du er farveblind, så gå efter en lys og mørk tone af grå. Sæt strømkablet ind i stikkontakten og i AC spændingsforsyningen - Spændingsforsyningen skal IKKE være tændt endnu.
+        din opstilling skulle meget gerne se sådan her ud:</p>
+        <div class="image">
+            <img src="images/opstilling.png" alt="webicon" class="opstilling">
+        </div>   
+        <p>
+            Stil jernkerne på midten af bordet/fladen, og multimeteret ved siden af, dog med lidt afstand imellem de to. Tag jernklodsen af jernkernen, og sæt en spole på hver af jernkernens stænger.
+        </p>
+        <img src="images/Vindinger.png" alt="2 spoler i en Jernkerne" class="vindinger">
+        <p>
+            Når det er gjort, sætter du jernklodsen tilbage på jernkernen. Vælg et ledningspar som du vil bruge til strømmen fra spændingsforsyningen til den primære spole, og det andet ledningspar skal så bruges til strømmen fra den sekundære spole til multimeteret.
+            <br><br>
+            Tag dit første ledningspar og put enderne ind i hver deres hul i spændingsforsyningen under AC (Se billedet).
+        </p>
+
+        <img src="images/hah.png" alt="Primær spole bliver sat til Spændingsforsygning">
+        <p>
+            Tag derefter den anden ende af ledningerne og put dem ind i den primære spole med N antal vindinger. Derefter skal du tage dit andet ledningspar og putte enderne ind i hver sit hul i den sekundære spole. 
+        </p>
+        
+        <img src="images/multisetup.png" alt="Sekundær spole bliver sat til multimeter">
+        <p>
+            Når du skal putte den anden ende af ledningerne ind i multimeteret, skal en af ledningerne ind i ”COM” og den anden ind i ”(μA Ω ⊣⊢)¦(mA V Hz)”.
+        </p>
+        <img src="images/multihuller.png" alt="Fremviser at ledningerne skal sættes i COM og mA V Hz">
+        <p>
+            Nu hvor din opstilling er færdig, så kan du tænde på spændingsforsyningen og multimeteret. Multimeteret skal stå på ”V_DC¦(   AC)”, og du skal huske altid, at trykke ”Select”, når du har drejet multimeteret til hvilken som helst ting på multimeteret.
+        </p>
+        <img src="images/multiV.png" alt="Fremviser at indstillingen skal være på V DC/AC">
+        <p>
+
+        </p>
+        <h3>Efterbehandling af data</h3>
+        <p>
+            ⋅ 	Skriv dine målinger og antal vindinger på den primære og sekundære spole ned. 
+            <br>⋅ 	Beregn resultatet ved brug af formlen for vindinger og spænding.
+            <br>⋅ Prøv en runde hvor du ikke måler den sekundære spænding, men isolere den i formlen og beregner frem til den, og derefter se den målte sekundære spænding. Er der en forskel mellem det teoretiske og målte resultat? Hvorfor/hvorfor ikke?
+            <br>⋅ Udfør disse trin igen med forskellige spoler, og se forskellen.
+        </p>
+
+        <h3>Interaktiv beregning</h3>
+        <p>Indsæt dine værdier i den orange boks nedenfor, for at let at kunne beregne dine mål.</p>
+
+
+        <!-- interactive assignment-->
+        <div class="box1">
+            <h5>Transformator formel beregner</h5>
+          
+            <hr class="bitch">
+          <p id="p6">Indsæt primær og sekundær spænding:</p2>
+          <div class="resultSPSpænding">
+            <form oninput="resultSPSpænding.value=parseInt(sspænding.value)/parseInt(pspænding.value)">
+              <input type="number" placeholder="Sekundær spænding" id="sspænding" name="sspænding" min="0" /> 
+              <div class="box2">
+                <output name="resultSPSpænding" for="pspænding sspænding">0</output>
+              </div>  
+              <br>━━━━━━━━━━ &emsp;=<br>
+              <input type="number" placeholder="Primær spænding" id="pspænding" name="pspænding" min="0" />
+            </form>
+          </div>
+      
+          <p id="p7">Indsæt primær og sekunder spoles vindinger:</p>
+          <div class="resultSPSpole">
+              <form oninput="resultSPSpole.value=parseInt(sspole.value)/parseInt(pspole.value)">
+                <input type="number" placeholder="Sekundær spole" id="sspole" name="sspole" min="0" />
+                <div class="box3">
+                  <output name="resultSPSpole" for="pspole sspole">0</output>
+                </div>
+                <br>━━━━━━━━━━ &emsp;=<br>
+                <input type="number" placeholder="Primær spole" id="pspole" name="pspole" min="0" />
+              </form>
+          </div>
+      </div>
+    
+ </div>
+
+
+ 
+</body>
+</html>

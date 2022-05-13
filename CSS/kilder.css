@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(90deg,#403287,#22AED1,#4b6dab);
+    flex-direction: column;
+}
+
+/* navigation */
+
+.nav {
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(30, 7, 79);
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+
+.nav a{
+    align-self: center;
+    border-width: 2px;
+    border-style: solid;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    border-color: #302569;
+    color: rgb(246, 235, 235);
+    padding: 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+    background-color: #eee;
+    color: #20B2AA;
+}
+
+
+.active {
+    padding: 12px;
+    text-decoration: none;
+    background-color: #8690ca;
+
+}
+/* Page */
+
+.main-box {
+    background-color: rgb(246, 235, 235);
+
+    /* Darkmode idea */
+    /* background-color: rgb(41, 38, 38);
+    color: rgb(246, 235, 235); */
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 57rem;
+    width: 850px;
+    margin-top: 50px;
+    align-self: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+/* element left and right */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.element-left {
+    flex: 2;
+    width: 100px;
+}
+  
+.element-right {
+    flex: 1;
+    width: 100px;
+}
+
+/*Rows*/
+#row {
+    flex-direction: row-reverse;
+}
+#row2 {
+    flex-direction: row;
+}
+
+/* images */
+img {
+    height: 250px;
+}
+
+.image1 {
+    margin-right: 80px;
+    /* border-style: dashed; */
+}
+
+.image1 img {
+    /* border-style: dashed; */
+    height: 250px;
+    border-left: 40px;
+    width: 280px;
+    padding-right: 20px;
+}
+
+.image2 {
+    margin-left: 50px;
+  
+}
+
+/* Text sections */
+.main-box p {
+    margin-left: 60px;
+    line-height: 25px;
+}
+
+.top-text {
+    margin-top: 10px;
+    margin-right: 40px;
+
+}
+
+.middle-text {
+
+    margin-right: 60px;
+}
+
+.main-box h2 {
+    margin-left: 60px;
+    margin-top: 15px;
+    font-size: 26px;
+}
+
+.main-box h1 {
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.main-box h3 {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: 570;
+    font-size: 19.5px;
+}
+
+.main-box h4 {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+a {
+    color: rgb(228,142,102);;
+}

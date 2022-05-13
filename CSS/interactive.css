@@ -1,0 +1,214 @@
+.box {
+    background-color: rgb(228,142,102); /*Lighter orange from webicon*/
+    width: 620px;
+    height: 480px;
+    margin-left: 130px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+form {
+    flex-direction: column-reverse;
+}
+
+
+
+h6 {
+    font-size: 40px;
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+    margin-left: 60px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+hr #hrtop {
+    margin-top: 20px;
+}
+
+#p1 {
+    padding: 1rem;
+    margin-left: 23px;
+    margin-top: 60px;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+}
+#p2 {
+    padding: 1rem;
+    margin-left: 23px;
+    margin-top: 150px;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+}
+#p3 {
+    padding: 1rem;
+    margin-left: 23px;
+    margin-top: 260px;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+}
+#p4 {
+    padding: 1rem;
+    margin-left: 23px;
+    /* margin-top: 20px; */
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.resultA {
+    margin-top: 110px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.resultV {
+    margin-top: 200px;
+    margin-left: 100px;
+    position: absolute;
+    /* z-index: ; */
+}
+
+.resultM {
+    margin-top: 310px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+#v {
+    background-color: rgb(248,236,125); /*Yellow from webicon*/;
+    line-height: 30px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px;
+    z-index: -1;
+    padding-left: 3px ;
+}
+#m {
+    background-color: rgb(248,236,125); /*Yellow from webicon*/;
+    line-height: 30px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px;
+    z-index: -1;
+    padding-left: 3px;
+}
+#a {
+    background-color: rgb(248,236,125); /*Yellow from webicon*/;
+    line-height: 30px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px;
+    padding-left: 3px;
+}
+
+/* Transformator */
+
+.box1 {
+    margin-top: 15px;
+    background-color: rgb(228,142,102); /*Lighter orange from webicon*/
+    width: 620px;
+    height: 480px;
+    margin-left: 130px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.box2 {
+    margin-left: 200px;
+    margin-top: 3.5px;
+    position: absolute;
+}
+
+.box3 {
+    margin-left: 200px;
+    margin-top: 3.5px;
+    position: absolute;
+}
+
+form {
+    flex-direction: column-reverse;
+}
+
+h5 {
+    padding: 1rem;
+    margin-left: 12px;
+    position: absolute;
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+}
+
+.bitch {
+   padding-top: 80px;
+}
+
+#p6 {
+   
+    padding: 1rem;
+    margin-left: 90px;
+    margin-top: 20px;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+}
+#p7 {
+
+    padding: 1rem;
+    margin-left: 90px;
+    margin-top: 180px;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+}
+
+.resultSPSpænding {
+    margin-top: 70px;
+    margin-left: 210px;
+    position: absolute;
+}
+
+.resultSPSpole {
+    margin-top: 230px;
+    margin-left: 210px;
+    position: absolute;
+}
+
+#sspænding {
+    padding-left: 0.9px;
+    background-color: rgb(248,236,125); /*Yellow from webicon*/;
+    line-height: 30px;
+    width: 150px;
+    font-size: 14.6px;
+    border-radius: 20px;
+    border: 2px;
+}
+#pspænding {
+    background-color: rgb(248,236,125); /*Yellow from webicon*/;
+    line-height: 30px;
+    width: 150px;
+    font-size: 14.6px;
+    border-radius: 20px;
+    border: 2px;
+    padding-left: 3px;
+}
+#sspole {
+    background-color: rgb(248,236,125); /*Yellow from webicon*/;
+    line-height: 30px;
+    width: 150px;
+    font-size: 14.6px;
+    border-radius: 20px;
+    border: 2px;
+    padding-left: 3px;
+}
+#pspole {
+    background-color: rgb(248,236,125); /*Yellow from webicon*/;
+    line-height: 30px;
+    width: 150px;
+    font-size: 14.6px;
+    border-radius: 20px;
+    border: 2px;
+    padding-left: 3px;
+}

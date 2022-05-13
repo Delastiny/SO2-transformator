@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- <link rel="stylesheet" href="CSS/info.css"> -->
+    <!-- Lato  light 300 and regular 400-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/interactive.css">
+    <title>Hvad er en transformator</title>
+</head>
+<body>
+    <!-- navigation -->
+ <div class="nav">
+     <a href="index.html">Forside</a>
+     <a href="trans.html" class="active">Hvad er en transformator?</a>
+     <a href="play.html">Fri leg side</a>
+     <a href="refl.html">Kommunikations Reflektioner</a>
+     <a href="logbog.html">Logbog & Selvrefleksion</a>
+     <a href="kilder.html">Litteraturliste & Bilag</a>
+ </div>
+ <!-- The information sections-->
+  <div class="main-box">
+     <h1>Hvad er en transformator?</h1>
+     <h2>Ohms lov</h2>
+     <!-- Section1 -->
+     <p class="top-text">
+      For at kunne forstå hvad en transformator er, skal du først forstå hvad Ohms lov er. 
+      &nbspOhms lov beskriver sammenhængen mellem spænding, strøm og modstand i et elektrisk kredsløb. </p>
+                    
+       <h3>Spænding, strøm og modstand</h3>
+       <p> Spænding, også kaldet for spændingsforskel, er betegnet med symbolet U 
+           og bruges til at beskrive energien der omsættes mellem 2 punkter i et elektrisk 
+           kredsløb.&nbsp Energien i dette tilfælde er elektrisk energi, der kan omsættes 
+           til varme, også kaldet termisk energi.&nbsp Spænding har SI-enheden, hvad spænding bliver målt i, Volt, også skrevet som V.
+        </p>
+        <p>
+         <br>
+         Strøm, også kaldet for strømstyrke, er betegnet med symbolet I og er brugt til at definere elektroner der passerer gennem et elektrisk kredsløb i løbet af en bestemt tid. Strømstyrkens SI-enhed er Ampere ofte skrevet som A. 
+        </p>
+         <br>
+        <p>
+           Modstand, også kaldet for resistans, er betegnet med symbolet R og er det der holder elektronerne tilbage i et kredsløb. Den er grunden til at der er forskel på hvor meget strøm der kommer gennem en ledning selvom de har samme spændingskilde. Den elektriske energi bliver omsat til termisk energi af modstandene. SI-enheden for modstand er Ohm, også skrevet som Ω.
+        </p>
+
+     <!-- Section 2 -->
+      <div class="section" id="row">
+          <div class="element-right">
+             <div class="image1">
+                 <img src="images/ohm.png" alt="Ohms lov illustreret">
+                 <br>
+                 <h4>Figur 1.1</h4>
+             </div>   
+          </div>
+          <div class="element-left">
+            <h3>Elektrisk kredsløb</h3>
+                 <p class="middle-text">
+                  Som illustreret på figur 1, skubber spændingen strømmen, og modstanden stopper den ved at hive op ad. Dette repræsenterer hvordan spændingen skubber strømmen ud af spændingskilden så elektronerne kan passere gennem ledningerne, kun til at blive bremset af modstandene. Det elektriske kredsløb arbejder sammen om at aflevere elektrisk energi til vores computere, elpære og andre elektroniske maskiner. 
+                  <br><br>Nu hvor du ved hvad spændingsforskel, strømstyrke og resistans er, kan du se sammenhængen Ohms lov beskriver, den går som følgende:
+                 </p>
+          </div>   
+      </div>
+
+      <!-- Section 3 -->
+      <p class="middle-text">
+        <span class="special-text">
+          U=I×R
+        </span>
+      </p>
+      <p class="middle-text">
+        
+      </p>
+
+
+
+      <!-- Section 4 -->
+      <h3>Hvad er Vekselstrøm?</h3>
+      <div class="section" id="row2">
+        <div class="element-left">
+           <div class="image2">
+               <img src="images/veksel.png" alt="a web icon">
+           </div>   
+           <h4 class="left">
+             Figur 1.2
+           </h4>
+        </div>
+        <div class="element-left">
+               <p class="middle-text">
+                Den anden ting du skal forstå for at kunne forstå en transformator, er hvad vekselstrøm er. 
+                <br><br>Der er to slags strømme, &nbspjævnstrøm (DC), der er en uændrede strøm og vekselstrøm (AC), der hele tiden skifter retning og fortegn (Se figur 1.2). Vekselstrøm er hvad der kommer ud af vores stikkontakte. Hvorfor det er der bliver brugt vekselstrøm 
+                <br>
+                   
+               </p>
+        </div>   
+    </div>
+
+    <p> over jævnstrøm, er at jævnstrøm altid går i den samme retning, den har altså fast polaritet, mens vekselstrøm, som nævnt, hele tiden skifter retning, og kan derfor gå frem og tilbage i strømkablerne. </p>
+
+      <!-- Section 5-->
+    <!-- Interaktik opgave -->
+    <div class="box">
+        <h6>Ohms lov interaktiv opgave</h6>
+    
+        <hr id="hrtop">
+       
+        <p id="p4">Nu hvor du kender til Ohms lov, kan du prøve at se udregningerne i praksis, ved<br>
+            at indsætte to værdier ind i boksene for neden:</p>
+  
+        <p id="p1">Har du spænding og modstand, men skal finde strømmen:</p>
+      <div class="resultA">
+        <form oninput="resultA.value=parseInt(v.value)/parseInt(m.value)">
+          <input type="number" placeholder="Spænding (Volt)" id="v" name="v" min="0" /> <b>/</b>
+          <input type="number" placeholder="Modstand (Ohm)" id="m" name="m" min="0" /> =
+          <output name="resultA" for="m v">0</output>A
+        </form>
+      </div>
+  
+      <p id="p2">Har du strøm og modstand, men skal finde spændingen:</p2>
+      <div class="resultV">
+        <form oninput="resultV.value=parseInt(a.value)*parseInt(m.value)">
+          <input type="number" placeholder="Strøm (Ampere)" id="a" name="a" min="0" /> ×
+          <input type="number" placeholder="Modstand (Ohm)" id="m" name="m" min="0" /> =
+          <output name="resultV" for="v m">0</output>V
+        </form>
+      </div>
+  <p id="p3">Har du spænding og strøm, men skal finde modstanden:</p>
+      <div class="resultM">
+          <form oninput="resultM.value=parseInt(v.value)/parseInt(a.value)">
+            <input type="number" placeholder="Spænding (Volt)" id="v" name="v" min="0" /> <b>/</b>
+            <input type="number" placeholder="Strøm (Ampere)" id="a" name="a" min="0" /> =
+            <output name="resultM" for="v a">0</output>Ω
+          </form>
+      </div>
+  </div>
+    <h2>Hvad er en transformator?</h2>
+
+  
+    <!-- Section 6 -->
+    <p class="middle-text">
+      En transformator bliver brugt til at udsende vekselstrøm med høje spændingsforskelle over lange afstande. Dette bliver gjort ved brug af en jernkerne, altså en magnetisk kerne, med to spoler der er vinklet rundt om jernkernen (Se figur 1.3). 
+      <br><br>Der er to sider til en transformator, den primære side og den sekundære side. Disse to bliver brugt til at referere til hvad der er modtaget fra spændingsforsyningen, altså den primære side, og hvad der kommer ud på den anden side, som vi modtager i vores stikkontakter, den sekundære side.
+    </p>
+     <!-- Section 7 -->
+     <div class="section" id="row2">
+        <div class="element-left">
+           <div class="image3">
+               <img src="images/trans.png" alt="a web icon">
+           </div> 
+           <h4 class="left">
+             figur 1.3
+           </h4>  
+        </div>
+        <div class="element-left">
+               <p class="middle-text">
+                Da der er en primær side, har vi den primære spole og som sagt ovenfor, den forsynende/primære spænding, og da der er en sekundær side, er der altså en sekundær spole med, igen, en sekundær spænding. 
+                &nbspDer er blevet fundet frem til at der er en sammenhæng mellem antal vindinger på spolerne og den primære og sekundære spænding. Formlen lyder som følgende:
+                <span class="special-text2">
+                  <p>
+                    <span class="frac" id="left"><sup id="top">Ns
+                    </sup><span>  &frasl;</span><sub>Np</sub></span>&nbsp&nbsp=&nbsp
+                      <span class="frac"><sup id="top">Us</sup><span
+                        >&frasl;</span><sub>Up</sub></span>
+
+                  </p>
+
+                </span>
+                   
+               </p>
+        </div>   
+    </div>
+
+     <!-- Section 8 -->
+     <p class="middle-text">
+      Hvoraf Up er den primære spænding, Us er den sekundære spænding, Np er den primære spoles antal vindinger og Ns er den sekundære spoles antal vindinger. Denne formel har vist sig at have en tæt tilnærmelse til virkeligheden.
+    </p>
+
+ </div>
+</body>
+</html>

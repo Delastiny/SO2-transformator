@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(90deg,#403287,#22AED1,#4b6dab);
+    flex-direction: column;
+}
+
+/* navigation */
+
+.nav {
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(30, 7, 79);
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+
+.nav a{
+    align-self: center;
+    border-width: 2px;
+    border-style: solid;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    border-color: #302569;
+    color: rgb(246, 235, 235);
+    padding: 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+    background-color: #eee;
+    color: #20B2AA;
+}
+
+
+.active {
+    padding: 12px;
+    text-decoration: none;
+    background-color: #8690ca;
+
+}
+/* Page */
+
+.main-box {
+    background-color: rgb(246, 235, 235);
+
+    /* Darkmode idea */
+    /* background-color: rgb(41, 38, 38);
+    color: rgb(246, 235, 235); */
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 398rem;
+    width: 850px;
+    margin-top: 50px;
+    align-self: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+/* element left and right */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.element-left {
+    flex: 2;
+    width: 100px;
+}
+  
+.element-right {
+    flex: 1.5;
+    width: 100px;
+    padding-left: 90px;
+}
+
+
+/* sketches element left, middle and right */
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+.element-leftimg {
+    margin-left: 60px;
+    flex: 1;
+    width: 100px;
+    border-radius: 10px;
+}
+.element-leftimg img {
+    border-radius: 10px;
+}
+
+.element-middleimg {
+    flex: 1;
+    width: 100px;
+    margin-left: 50px;
+}
+.element-middleimg img {
+    border-radius: 10px;
+}
+  
+.element-rightimg {
+    margin-right: 60px;
+    flex: 1;
+    width: 100px;
+}
+
+.element-rightimg img {
+    border-radius: 10px;
+}
+
+/* img 2 */
+.element-leftimg2 {
+    margin-left: 50px;
+    flex: 1;
+    width: 100px;
+    border-radius: 10px;
+}
+.element-leftimg2 img {
+    border-radius: 10px;
+}
+  
+.element-rightimg2 {
+    flex: 1;
+    width: 100px;
+    margin-right: 50px;
+    padding-left: 60px;
+}
+
+.element-rightimg2 img {
+    border-radius: 10px;
+}
+
+
+
+
+
+/*Rows*/
+#row {
+    flex-direction: row-reverse;
+}
+#row2 {
+    flex-direction: row;
+}
+
+/* images */
+img {
+    height: 250px;
+}
+
+.fysik {
+    height: 900px;
+    margin-left: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.000000000006px;
+    border-color: rgb(68, 68, 68);
+}
+
+.color-palet {
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+    height: 210px;
+   width: 700px;
+}
+
+.toulmin {
+    margin-left: 160px;
+    margin-right: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.image1 {
+    margin-right: 80px;
+    /* border-style: dashed; */
+}
+
+.image1 img {
+    /* border-style: dashed; */
+    height: 210px;
+    border-left: 40px;
+    width: 350px;
+    padding-right: 60px;
+}
+
+.image2 {
+    margin-left: 50px;
+  
+}
+
+.rute {
+    height: 444px;
+    margin-left: 120px;
+}
+
+/* Text sections */
+.main-box p {
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 25px;
+}
+
+.top-text {
+    margin-top: 10px;
+
+}
+
+.middle-text {
+    margin-top: 5px;
+    margin-right: 60px;
+}
+
+.main-box h2 {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.main-box h1 {
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.main-box h3 {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: 570;
+    font-size: 19.5px;
+}
+
+.main-box h4 {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: 570;
+    font-size: 16.5px;
+}
+
+.special-text {
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 160px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+
+a {
+    color: rgb(228,142,102);;
+}
+/* Fractions */
+
+span.frac {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+   
+  }
+
+#left {
+    margin-left: 160px;
+}
+#top {
+    margin-top: 5px;
+}
+
+
+  span.frac > sup, span.frac > sub {
+    display: block;
+    font: inherit;
+    padding: 0 0.3em;
+  }
+  span.frac > sup {border-bottom: 0.08em solid;}
+  span.frac > span {display: none;}
